@@ -44,7 +44,7 @@ def backward(data, label):
             start = (i*BATCH_SIZE)%len(data)
             end = start+BATCH_SIZE
             _, loss_value, step = sess.run([train_op, loss, global_step], feed_dict={x: data[start:end], y_: label[start:end]})
-            if i % 10 == 0:
+            if i % 100 == 0:
                 print("After %d training step(s), loss on training batch is %g." % (step, loss_value))
                 saver.save(sess, os.path.join(MODEL_SAVE_PATH, MODEL_NAME), global_step=global_step)
 
@@ -53,7 +53,6 @@ def main():
     data, label = IMG.img_handle()
     for i in range(len(data)):
         x, y = random.randint(0, len(data)-1), random.randint(0, len(data)-1)
-        print(x, y)
         temp_data = data[x]
         data[x] = data[y]
         data[y] = temp_data

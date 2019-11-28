@@ -136,7 +136,6 @@ def get_img(img, file):
             for j in range(8):
                 label.append(temp_label)
             i += 1
-    print(file)
 
 
 def sp_noise(image,prob):
@@ -164,6 +163,4 @@ def img_handle():
             img_path = root+'/'+file
             img = cv2.imread(img_path, 0)
             get_img(img, file)
-    print(data)
-    print(label)
     return data, label
