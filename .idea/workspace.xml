@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686c73fd-208c-4a76-a3d4-6ae2b4648a89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Classification.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImgHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImgHandle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backward.py" beforeDir="false" afterPath="$PROJECT_DIR$/backward.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4601.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4601.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4601.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4611.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4611.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4611.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4621.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4621.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4621.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4631.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4631.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4631.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4641.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4641.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4641.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4651.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/train_model-4651.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreProcess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backward.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="32" />
+            <state relative-caret-position="545">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -64,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forward.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="7" selection-end-column="17" />
+            <state relative-caret-position="51">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -73,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImgHandle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2299">
+            <state relative-caret-position="968">
               <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -85,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="19">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#15#38#0" expanded="true" />
               </folding>
@@ -97,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PreProcess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="81" column="29" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="29" />
+            <state relative-caret-position="-6">
+              <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -137,15 +117,16 @@
       <list>
         <option value="$PROJECT_DIR$/forward.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/PreProcess.py" />
         <option value="$PROJECT_DIR$/ImgHandle.py" />
         <option value="$PROJECT_DIR$/backward.py" />
         <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/PreProcess.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="594" />
+    <option name="y" value="-36" />
     <option name="width" value="1390" />
     <option name="height" value="1756" />
   </component>
@@ -161,6 +142,11 @@
             <path>
               <item name="Bank-card-number-identification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank-card-number-identification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank-card-number-identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank-card-number-identification" type="462c0819:PsiDirectoryNode" />
+              <item name="test_images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,22 +237,22 @@
       <workItem from="1574674826165" duration="5377000" />
       <workItem from="1574747696601" duration="9196000" />
       <workItem from="1574764139160" duration="18984000" />
-      <workItem from="1574909835053" duration="7268000" />
+      <workItem from="1574909835053" duration="11614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40825000" />
+    <option name="totallyTimeSpent" value="45171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="695" height="878" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30298272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17535903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39089692" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38726792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,43 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImgHandle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PreProcess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -350,10 +299,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PreProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImgHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="19">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#15#38#0" expanded="true" />
           </folding>

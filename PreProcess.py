@@ -4,13 +4,6 @@ import numpy as np
 def image_process(file_path):
     img = cv2.imread(file_path, 0)
     blur = cv2.GaussianBlur(img, (3, 3), 0)     #高斯模糊
-
-    #dstx = cv2.Sobel(blur, -1, 1, 0, ksize=5)   #边缘检测
-    #dsty = cv2.Sobel(blur, -1, 0, 1, ksize=5)
-    #lap = cv2.Laplacian(blur, -1)
-
-    #ret, binary = cv2.threshold(lap, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_TRIANGLE)
-    #binary = cv2.adaptiveThreshold(lap, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 25, 10)
     ret, binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)       #二值化
 
     kernel = np.ones((1, 50), np.uint8)
