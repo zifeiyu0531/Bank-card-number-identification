@@ -42,7 +42,7 @@ pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 # Usage
 Clone库到本地
 
-## 训练模型
+### 训练模型
 删除`model`文件夹内容
 
 进入`train.py`
@@ -50,7 +50,7 @@ Clone库到本地
 将布尔变量`train`的值改为`true`
 
 运行`train.py`
-## 模型调用
+### 模型调用
 进入`train.py`
 
 修改变量`file_path`的值为想要识别的图片路径
